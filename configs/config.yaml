@@ -1,0 +1,9 @@
+data:
+  raw_path: data/raw/PS_20174392719_1491204439457_Log.csv
+  processed_path: data/processed/paysim.parquet
+split:
+  train_end_step: 480
+  val_end_step: 600
+seed: 42
+eval:
+  alert_budgets: [0.001, 0.005, 0.01]
