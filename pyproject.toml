@@ -17,3 +17,6 @@ dev = ["pytest", "ruff"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.ruff]
+extend-exclude = ["notebooks"]
